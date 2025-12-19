@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source .venv/bin/activate)",
+      "Bash(pip uninstall:*)",
+      "Bash(pip install:*)",
+      "Bash(MMCV_WITH_OPS=1 pip install:*)",
+      "Bash(python:*)",
+      "Bash(curl:*)",
+      "Bash(chmod:*)",
+      "Bash(pkill:*)",
+      "Bash(python3:*)",
+      "Bash(source:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
